@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #010303;
+  --surface: #031512;
+  --primary: #17ffdc;
+  --primary-bg: rgba(23, 255, 220, 0.08);
+  --primary-border: rgba(23, 255, 220, 0.17);
+  --primary-border-strong: rgba(23, 255, 220, 0.5);
+  --secondary: #ffbd17;
+  --foreground: #ffffff;
+  --foreground-muted: rgba(255, 255, 255, 0.8);
+  --foreground-subtle: rgba(255, 255, 255, 0.56);
+  --border: rgba(255, 255, 255, 0.1);
+  --border-accent: rgba(255, 255, 255, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
